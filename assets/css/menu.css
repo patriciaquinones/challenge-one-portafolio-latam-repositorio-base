@@ -1,0 +1,28 @@
+
+
+.menu, .menu__header, .menu__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+    color: var(--Background__darkGray);
+
+}
+.menu__title{
+    flex-direction: row;
+    margin: 0 .5rem;
+    font-weight: 700;
+}
+.menu__list__item, .menu__list__item__contato{
+    padding: 0 1.5rem;
+}
+
+.menu__list__item__contato{
+    font-weight: 700;
+}
+.menu__list__item:hover{
+    cursor: pointer;
+    text-decoration: underline var(--Background__blue) 2px;
+}
+
+

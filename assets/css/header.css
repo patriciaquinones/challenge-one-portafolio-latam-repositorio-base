@@ -1,0 +1,37 @@
+.title, .title__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 1rem;
+    color: var(--Background__darkGray);
+    font-family: var(--Raleway-font);
+}
+
+.title__profile {
+    border-radius: 50%;
+    width: 368px;
+    height: 368px;
+    order: 2;
+}
+
+.title__bio {
+    font-size: 52px;
+}
+
+.title__subsection{
+    font-size: 22px;
+    margin: 25px 0;
+}
+
+.title__network, .title__network__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-right: 2rem;
+}
+
+.title__network__item:hover{
+    cursor: pointer;
+    text-decoration: underline var(--Background__blue) 2px;
+}

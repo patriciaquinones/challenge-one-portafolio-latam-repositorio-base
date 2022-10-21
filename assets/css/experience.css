@@ -1,0 +1,56 @@
+
+.experience__section__title{
+    display: flex;
+    justify-content: center;
+    font-family:  var(--Raleway-font);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-top: 88px; 
+    margin-bottom: 32px;
+
+}
+
+.experiencie__box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: row;
+    margin: 40px 0px;
+    
+}
+
+.experience__info{
+    flex-direction: column;
+    align-self: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 40px 40px;
+    
+}
+
+.encriptador{
+    order: 4;
+}
+
+.experiencia__botao--repo{
+    padding: 16px;
+    margin-top: 8px;
+    width: 105px;
+    height: 51px;
+    background: var(--Background__white);
+    color: var(--Background__blue);
+    border: 1px solid var(--Background__blue);
+}
+
+.experience__botao--demo{
+    padding: 16px;
+    margin-top: 8px;
+    width: 105px;
+    height: 51px;
+    background: var(--Background__blue);
+    color: var(--Background__white);
+}

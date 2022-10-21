@@ -1,0 +1,25 @@
+.formcontato{
+    margin: 40px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    width: 100%;
+    height: 20px;
+    background-color: var(--Background__white);
+}
+
+.footer p{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+

@@ -1,0 +1,91 @@
+.formcontato{
+    display: flex;
+    width: 100%;
+    margin-left: 0rem;
+}
+
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--Background__lightBlue);
+    padding: 0 20px;
+}
+
+.formcontato__img{
+    margin-top: 88px;
+    margin-bottom: 88px;
+}
+
+.formcontato__title{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 88px;
+    margin-bottom: 32px;
+    margin-left: 20px;
+}
+
+.formcontato__subtext{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 20px;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+}
+.formcontato__input{
+    border-radius: 4px;
+    background-color: var(--Background__white);
+    border: none;
+    width: 656px;
+    height: 56px;
+    margin: 10px 20px;
+}
+
+.formcontato__textarea{
+    border-radius: 4px;
+    background-color: var(--Background__white);
+    border: none;
+    width: 656px;
+    height: 133px;
+    resize: none;
+    margin: 20px;
+}
+
+.formcontato__botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 144px;
+    height: 51px;
+    color: var(--Background__white);
+    margin-left: 20px;
+    margin-bottom: 88px;
+    /* Azul/100% */
+    background: var(--Background__blue);
+}
+
+
+.formcontato__botao:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+  }
+
+.formcontato__form button:disabled{
+    background-color: darkgrey;
+}
+
+.formcontato__form button:disabled:hover{
+    cursor: not-allowed;
+}

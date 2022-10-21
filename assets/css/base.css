@@ -1,0 +1,14 @@
+:root{
+    --Background__lightWhite: #F5F5F5;
+    --Background__lightBlue: #EAF2FD;
+    --Background__blue: #2A7AE4;
+    --Background__white: #FFFFFF;
+    --Background__darkGray: #464646;
+    --Raleway-font: 'Raleway', sans-serif;
+}
+
+
+body{
+    color: var(--Background__darkGray);
+}
+
